@@ -19,18 +19,12 @@
       <!-- Instead of making row and cols just using swiper special tags -->
       <!--  -->
       <Swiper
-        :effect="'coverflow'"
-        :grabCursor="true"
+        :slidesPerView="4"
+        :spaceBetween="30"
         :centeredSlides="true"
-        :slidesPerView="'auto'"
-        :coverflowEffect="{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        :pagination="{
+          clickable: true,
         }"
-        :pagination="true"
         :modules="modules"
       >
         <SwiperSlide
@@ -80,7 +74,7 @@
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 export default {
   name: "HomePage",
@@ -90,7 +84,7 @@ export default {
   },
   setup() {
     return {
-      modules: [EffectCoverflow, Pagination],
+      modules: [Pagination],
     };
   },
 
@@ -129,11 +123,6 @@ export default {
   width: 100%;
   height: 400px;
   object-fit: cover;
-}
-
-.swiper {
-  width: 400px;
-  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
