@@ -1,7 +1,7 @@
 # pick-a-pile
 
 Hello...! I am Khant Loon Thu.
-ဒီ project လေးက Bro Synn Lynn Htun ရဲ့ project idea လေးဖြစ်တဲ့ Pick a pile လေးဖြစ်ပါတယ်။ Vue ရယ် Vuex ရယ် သုံးထားပြီးတော့ ပထမဆုံး Home Page မှာ carousel အတွက် Swiper JS Framework ကို သုံးထားပါတယ်။
+ဒီ project လေးက Bro Sann Lynn Htun ရဲ့ project idea လေးဖြစ်တဲ့ Pick a pile လေးဖြစ်ပါတယ်။ Vue ရယ် Vuex ရယ် သုံးထားပြီးတော့ ပထမဆုံး Home Page မှာ carousel အတွက် Swiper JS Framework ကို သုံးထားပါတယ်။
 
 store folder ထဲက index.js မှာ စကြည့်ရင် step by step intrustion ပါပါတယ်။ ...
 
